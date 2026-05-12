@@ -13,7 +13,7 @@ import {useState} from "react";
 
 export default function Home() {
     // variável de estado
-    const [name, setName] = useState("mundo!");
+    const [name, setName] = useState("aluno28289!");
 
     // função
     const alterName =
@@ -22,7 +22,7 @@ export default function Home() {
     return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h2>Olá {name}</h2>
+        <h2>Natã {name}</h2>
 
           <button style={{width: '100px', fontSize: '16px'}} onClick={
               () => {setName("MUNDO!!!!")}
