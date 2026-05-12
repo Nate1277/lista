@@ -13,7 +13,7 @@ import {useState} from "react";
 
 export default function Home() {
     // variável de estado
-    const [name, setName] = useState("aluno28289!");
+    const [name, setName] = useState("nº 28289!");
 
     // função
     const alterName =
